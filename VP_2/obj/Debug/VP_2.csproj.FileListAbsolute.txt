@@ -1,0 +1,10 @@
+C:\Users\Admin\Documents\GitHub\VP\VP_2\bin\Debug\VP_2.exe.config
+C:\Users\Admin\Documents\GitHub\VP\VP_2\bin\Debug\VP_2.exe
+C:\Users\Admin\Documents\GitHub\VP\VP_2\bin\Debug\VP_2.pdb
+C:\Users\Admin\Documents\GitHub\VP\VP_2\obj\Debug\VP_2.csprojAssemblyReference.cache
+C:\Users\Admin\Documents\GitHub\VP\VP_2\obj\Debug\VP_2.Form1.resources
+C:\Users\Admin\Documents\GitHub\VP\VP_2\obj\Debug\VP_2.Properties.Resources.resources
+C:\Users\Admin\Documents\GitHub\VP\VP_2\obj\Debug\VP_2.csproj.GenerateResource.cache
+C:\Users\Admin\Documents\GitHub\VP\VP_2\obj\Debug\VP_2.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\GitHub\VP\VP_2\obj\Debug\VP_2.exe
+C:\Users\Admin\Documents\GitHub\VP\VP_2\obj\Debug\VP_2.pdb
