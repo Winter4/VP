@@ -1,0 +1,11 @@
+C:\Users\Admin\Documents\GitHub\VP\VP_3\bin\Debug\VP_3.exe.config
+C:\Users\Admin\Documents\GitHub\VP\VP_3\bin\Debug\VP_3.exe
+C:\Users\Admin\Documents\GitHub\VP\VP_3\bin\Debug\VP_3.pdb
+C:\Users\Admin\Documents\GitHub\VP\VP_3\obj\Debug\VP_3.csprojAssemblyReference.cache
+C:\Users\Admin\Documents\GitHub\VP\VP_3\obj\Debug\VP_3.Main.resources
+C:\Users\Admin\Documents\GitHub\VP\VP_3\obj\Debug\VP_3.CreateNewMatrixForm.resources
+C:\Users\Admin\Documents\GitHub\VP\VP_3\obj\Debug\VP_3.Properties.Resources.resources
+C:\Users\Admin\Documents\GitHub\VP\VP_3\obj\Debug\VP_3.csproj.GenerateResource.cache
+C:\Users\Admin\Documents\GitHub\VP\VP_3\obj\Debug\VP_3.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\GitHub\VP\VP_3\obj\Debug\VP_3.exe
+C:\Users\Admin\Documents\GitHub\VP\VP_3\obj\Debug\VP_3.pdb
