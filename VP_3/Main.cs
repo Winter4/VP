@@ -51,13 +51,36 @@ namespace VP_3
             public void CalcItemsAndP()
             {
                 int itemsNumber = rows * cols;
-                P = 1;
+                //P = 1;
+                P = 0;
+                
+                double[] myVector = new double[itemsNumber];
                 for (int i = 0; i < rows; i++)
                     for (int j = 0; j < cols; j++)
                     {
                         items[i, j] = A * (i + 1) + B * Math.Exp(C * (j + 1));
-                        P *= Math.Pow(items[i, j], 1.0 / itemsNumber);
+                        //P *= Math.Pow(items[i, j], 1.0 / itemsNumber);
+                        myVector[i * cols + j] = items[i, j];
                     }
+
+                // отсортировали вектор
+                bool flag = true;
+                while (flag)
+                {
+                    flag = false;
+                    for(int i = 0; i < itemsNumber - 1; i++)
+                    {
+                        if (myVector[i] > myVector[i + 1])
+                        {
+                            double buf = myVector[i];
+                            myVector[i] = myVector[i + 1];
+                            myVector[i + 1] = buf;
+
+                            flag = true;
+                        }
+                    }
+                }
+                P = myVector[itemsNumber / 2];
             }
         }
 
@@ -153,7 +176,8 @@ namespace VP_3
                     // и это тоже
                     for (int i = 0; i < matrix.GetRows(); i++)
                         for (int j = 0; j < matrix.GetCols(); j++)
-                            dataGridView2.Rows[i].Cells[j].Value = matrix.items[i, j];
+                            dataGridView2.Rows[i].Cells[j].Value = String.Format("{0:0.000}", matrix.items[i, j]);
+                    
                     dataGridView2.Visible = true;
                 }
             }
