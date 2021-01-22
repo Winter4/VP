@@ -1,0 +1,11 @@
+C:\univer\sem3\ovp\Agarkov\lab4\lab4\bin\Debug\lab4.exe.config
+C:\univer\sem3\ovp\Agarkov\lab4\lab4\bin\Debug\lab4.exe
+C:\univer\sem3\ovp\Agarkov\lab4\lab4\bin\Debug\lab4.pdb
+C:\univer\sem3\ovp\Agarkov\lab4\lab4\obj\Debug\lab4.csprojAssemblyReference.cache
+C:\univer\sem3\ovp\Agarkov\lab4\lab4\obj\Debug\lab4.Form1.resources
+C:\univer\sem3\ovp\Agarkov\lab4\lab4\obj\Debug\lab4.Properties.Resources.resources
+C:\univer\sem3\ovp\Agarkov\lab4\lab4\obj\Debug\lab4.csproj.GenerateResource.cache
+C:\univer\sem3\ovp\Agarkov\lab4\lab4\obj\Debug\lab4.csproj.CoreCompileInputs.cache
+C:\univer\sem3\ovp\Agarkov\lab4\lab4\obj\Debug\lab4.exe
+C:\univer\sem3\ovp\Agarkov\lab4\lab4\obj\Debug\lab4.pdb
+C:\univer\sem3\ovp\Agarkov\lab4\lab4\obj\Debug\lab4.ParamsForm.resources
