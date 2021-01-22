@@ -28,6 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             this.closeFormButton = new System.Windows.Forms.Button();
             this.createMatrixButton = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
@@ -44,10 +46,10 @@
             // closeFormButton
             // 
             this.closeFormButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.closeFormButton.Location = new System.Drawing.Point(318, 23);
-            this.closeFormButton.Margin = new System.Windows.Forms.Padding(2);
+            this.closeFormButton.Location = new System.Drawing.Point(424, 28);
+            this.closeFormButton.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.closeFormButton.Name = "closeFormButton";
-            this.closeFormButton.Size = new System.Drawing.Size(92, 34);
+            this.closeFormButton.Size = new System.Drawing.Size(123, 42);
             this.closeFormButton.TabIndex = 0;
             this.closeFormButton.Text = "Close form";
             this.closeFormButton.UseVisualStyleBackColor = true;
@@ -56,10 +58,10 @@
             // createMatrixButton
             // 
             this.createMatrixButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.createMatrixButton.Location = new System.Drawing.Point(318, 89);
-            this.createMatrixButton.Margin = new System.Windows.Forms.Padding(2);
+            this.createMatrixButton.Location = new System.Drawing.Point(424, 110);
+            this.createMatrixButton.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.createMatrixButton.Name = "createMatrixButton";
-            this.createMatrixButton.Size = new System.Drawing.Size(92, 35);
+            this.createMatrixButton.Size = new System.Drawing.Size(123, 43);
             this.createMatrixButton.TabIndex = 1;
             this.createMatrixButton.Text = "New matrix";
             this.createMatrixButton.UseVisualStyleBackColor = true;
@@ -69,17 +71,40 @@
             // 
             this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(12, 187);
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle1.Format = "N3";
+            dataGridViewCellStyle1.NullValue = null;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dataGridView1.DefaultCellStyle = dataGridViewCellStyle1;
+            this.dataGridView1.Location = new System.Drawing.Point(16, 230);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(338, 291);
+            this.dataGridView1.RowHeadersWidth = 51;
+            this.dataGridView1.Size = new System.Drawing.Size(451, 358);
             this.dataGridView1.TabIndex = 2;
             // 
             // dataGridView2
             // 
             this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView2.Location = new System.Drawing.Point(385, 187);
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle2.NullValue = null;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dataGridView2.DefaultCellStyle = dataGridViewCellStyle2;
+            this.dataGridView2.Location = new System.Drawing.Point(513, 230);
+            this.dataGridView2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.dataGridView2.Name = "dataGridView2";
-            this.dataGridView2.Size = new System.Drawing.Size(338, 291);
+            this.dataGridView2.RowHeadersWidth = 51;
+            this.dataGridView2.Size = new System.Drawing.Size(451, 358);
             this.dataGridView2.TabIndex = 3;
             this.dataGridView2.Visible = false;
             // 
@@ -87,9 +112,10 @@
             // 
             this.pLabel.AutoSize = true;
             this.pLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.pLabel.Location = new System.Drawing.Point(57, 152);
+            this.pLabel.Location = new System.Drawing.Point(76, 187);
+            this.pLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.pLabel.Name = "pLabel";
-            this.pLabel.Size = new System.Drawing.Size(85, 24);
+            this.pLabel.Size = new System.Drawing.Size(108, 29);
             this.pLabel.TabIndex = 4;
             this.pLabel.Text = "LABEL P";
             this.pLabel.Visible = false;
@@ -98,9 +124,10 @@
             // 
             this.aLabel.AutoSize = true;
             this.aLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.aLabel.Location = new System.Drawing.Point(427, 79);
+            this.aLabel.Location = new System.Drawing.Point(569, 97);
+            this.aLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.aLabel.Name = "aLabel";
-            this.aLabel.Size = new System.Drawing.Size(86, 24);
+            this.aLabel.Size = new System.Drawing.Size(107, 29);
             this.aLabel.TabIndex = 5;
             this.aLabel.Text = "LABEL A";
             this.aLabel.Visible = false;
@@ -109,9 +136,10 @@
             // 
             this.bLabel.AutoSize = true;
             this.bLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.bLabel.Location = new System.Drawing.Point(427, 115);
+            this.bLabel.Location = new System.Drawing.Point(569, 142);
+            this.bLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.bLabel.Name = "bLabel";
-            this.bLabel.Size = new System.Drawing.Size(85, 24);
+            this.bLabel.Size = new System.Drawing.Size(108, 29);
             this.bLabel.TabIndex = 6;
             this.bLabel.Text = "LABEL B";
             this.bLabel.Visible = false;
@@ -120,9 +148,10 @@
             // 
             this.cLabel.AutoSize = true;
             this.cLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.cLabel.Location = new System.Drawing.Point(427, 152);
+            this.cLabel.Location = new System.Drawing.Point(569, 187);
+            this.cLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.cLabel.Name = "cLabel";
-            this.cLabel.Size = new System.Drawing.Size(86, 24);
+            this.cLabel.Size = new System.Drawing.Size(109, 29);
             this.cLabel.TabIndex = 7;
             this.cLabel.Text = "LABEL C";
             this.cLabel.Visible = false;
@@ -131,18 +160,19 @@
             // 
             this.minLabel.AutoSize = true;
             this.minLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.minLabel.Location = new System.Drawing.Point(427, 27);
+            this.minLabel.Location = new System.Drawing.Point(569, 33);
+            this.minLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.minLabel.Name = "minLabel";
-            this.minLabel.Size = new System.Drawing.Size(107, 24);
+            this.minLabel.Size = new System.Drawing.Size(136, 29);
             this.minLabel.TabIndex = 8;
             this.minLabel.Text = "LABEL MIN";
             this.minLabel.Visible = false;
             // 
             // Main
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(757, 607);
+            this.ClientSize = new System.Drawing.Size(1009, 747);
             this.Controls.Add(this.minLabel);
             this.Controls.Add(this.cLabel);
             this.Controls.Add(this.bLabel);
@@ -152,7 +182,7 @@
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.createMatrixButton);
             this.Controls.Add(this.closeFormButton);
-            this.Margin = new System.Windows.Forms.Padding(2);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Main";
             this.Text = "Karpovich V. D. Lab 3";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
